@@ -1,0 +1,11 @@
+/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/CMakeFiles/rebuild_cache.dir
+/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/CMakeFiles/edit_cache.dir
+/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif/CMakeFiles/rebuild_cache.dir
+/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif/CMakeFiles/onvif.dir
+/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif/CMakeFiles/edit_cache.dir
+/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvifcomm/CMakeFiles/rebuild_cache.dir
+/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvifcomm/CMakeFiles/comm.dir
+/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvifcomm/CMakeFiles/edit_cache.dir
+/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/src/CMakeFiles/rebuild_cache.dir
+/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/src/CMakeFiles/avstream.dir
+/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/src/CMakeFiles/edit_cache.dir
