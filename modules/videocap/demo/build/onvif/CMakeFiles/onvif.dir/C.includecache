@@ -6,43 +6,43 @@
 
 #IncludeRegexTransform: 
 
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/dom.c
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/dom.c
 stdsoap2.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/stdsoap2.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/stdsoap2.h
 
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/duration.c
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/duration.c
 soapH.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/soapH.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/soapH.h
 
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/mecevp.c
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/mecevp.c
 mecevp.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/mecevp.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/mecevp.h
 mecevp.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/mecevp.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/mecevp.h
 mecevp.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/mecevp.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/mecevp.h
 mecevp.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/mecevp.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/mecevp.h
 mecevp.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/mecevp.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/mecevp.h
 
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/mecevp.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/mecevp.h
 stdsoap2.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/stdsoap2.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/stdsoap2.h
 openssl/evp.h
 -
 openssl/ssl.h
 -
 
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/smdevp.c
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/smdevp.c
 smdevp.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/smdevp.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/smdevp.h
 smdevp.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/smdevp.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/smdevp.h
 
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/smdevp.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/smdevp.h
 stdsoap2.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/stdsoap2.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/stdsoap2.h
 openssl/evp.h
 -
 openssl/hmac.h
@@ -50,27 +50,27 @@ openssl/hmac.h
 openssl/ssl.h
 -
 
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/soapC.c
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/soapC.c
 soapH.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/soapH.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/soapH.h
 
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/soapClient.c
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/soapClient.c
 soapH.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/soapH.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/soapH.h
 
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/soapH.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/soapH.h
 soapStub.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/soapStub.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/soapStub.h
 
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/soapStub.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/soapStub.h
 stdsoap2.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/stdsoap2.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/stdsoap2.h
 
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/stdsoap2.c
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/stdsoap2.c
 wsdd.nsmap
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsdd.nsmap
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsdd.nsmap
 stdsoap2.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/stdsoap2.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/stdsoap2.h
 ipcom_key_db.h
 -
 pthread.h
@@ -78,11 +78,11 @@ pthread.h
 pth.h
 -
 
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/stdsoap2.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/stdsoap2.h
 soapdefs.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/soapdefs.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/soapdefs.h
 config.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/config.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/config.h
 sys/_inttypes.h
 -
 ioctl.h
@@ -96,7 +96,7 @@ StdIOPalm.h
 sys_socket.h
 -
 palmFunctions.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/palmFunctions.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/palmFunctions.h
 e32def.h
 -
 sys/ioctl.h
@@ -250,19 +250,19 @@ stdint.h
 bits/wordsize.h
 -
 httpLib.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/httpLib.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/httpLib.h
 private/mathP.h
 -
 ipcom_key_db.h
 -
 
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/threads.c
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/threads.c
 threads.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/threads.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/threads.h
 
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/threads.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/threads.h
 stdsoap2.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/stdsoap2.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/stdsoap2.h
 unistd.h
 -
 io.h
@@ -276,63 +276,63 @@ windows.h
 pthread.h
 -
 
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsaapi.c
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsaapi.c
 soap12.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/soap12.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/soap12.h
 wsa.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsa.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsa.h
 wsa.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsa.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsa.h
 wsaapi.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsaapi.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsaapi.h
 wsaapi.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsaapi.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsaapi.h
 wsaapi.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsaapi.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsaapi.h
 wsaapi.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsaapi.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsaapi.h
 wsseapi.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsseapi.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsseapi.h
 wsa.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsa.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsa.h
 wsaapi.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsaapi.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsaapi.h
 
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsaapi.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsaapi.h
 soapH.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/soapH.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/soapH.h
 
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsdd.nsmap
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsdd.nsmap
 soapH.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/soapH.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/soapH.h
 
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsseapi.c
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsseapi.c
 wsse.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsse.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsse.h
 wsaapi.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsaapi.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsaapi.h
 wsseapi.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsseapi.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsseapi.h
 wsseapi.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsseapi.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsseapi.h
 threads.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/threads.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/threads.h
 wsseapi.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsseapi.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsseapi.h
 threads.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/threads.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/threads.h
 wsseapi.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsseapi.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsseapi.h
 threads.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/threads.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/threads.h
 wsaapi.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsaapi.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsaapi.h
 
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsseapi.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsseapi.h
 soapH.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/soapH.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/soapH.h
 smdevp.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/smdevp.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/smdevp.h
 mecevp.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/mecevp.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/mecevp.h
 

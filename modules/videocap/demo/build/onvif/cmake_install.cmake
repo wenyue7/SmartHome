@@ -1,4 +1,4 @@
-# Install script for directory: /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif
+# Install script for directory: /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

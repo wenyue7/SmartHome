@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine
+CMAKE_SOURCE_DIR = /home/administrator/Projects/SmartHome/modules/videocap/demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build
+CMAKE_BINARY_DIR = /home/administrator/Projects/SmartHome/modules/videocap/demo/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/avstream.dir/depend.make
@@ -59,16 +59,16 @@ include src/CMakeFiles/avstream.dir/flags.make
 
 src/CMakeFiles/avstream.dir/main.cpp.o: src/CMakeFiles/avstream.dir/flags.make
 src/CMakeFiles/avstream.dir/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/avstream.dir/main.cpp.o"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/avstream.dir/main.cpp.o -c /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/avstream.dir/main.cpp.o"
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/avstream.dir/main.cpp.o -c /home/administrator/Projects/SmartHome/modules/videocap/demo/src/main.cpp
 
 src/CMakeFiles/avstream.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/avstream.dir/main.cpp.i"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/src/main.cpp > CMakeFiles/avstream.dir/main.cpp.i
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/demo/src/main.cpp > CMakeFiles/avstream.dir/main.cpp.i
 
 src/CMakeFiles/avstream.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/avstream.dir/main.cpp.s"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/src/main.cpp -o CMakeFiles/avstream.dir/main.cpp.s
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/demo/src/main.cpp -o CMakeFiles/avstream.dir/main.cpp.s
 
 src/CMakeFiles/avstream.dir/main.cpp.o.requires:
 
@@ -81,18 +81,42 @@ src/CMakeFiles/avstream.dir/main.cpp.o.provides: src/CMakeFiles/avstream.dir/mai
 src/CMakeFiles/avstream.dir/main.cpp.o.provides.build: src/CMakeFiles/avstream.dir/main.cpp.o
 
 
+src/CMakeFiles/avstream.dir/savevideo.cpp.o: src/CMakeFiles/avstream.dir/flags.make
+src/CMakeFiles/avstream.dir/savevideo.cpp.o: ../src/savevideo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/avstream.dir/savevideo.cpp.o"
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/avstream.dir/savevideo.cpp.o -c /home/administrator/Projects/SmartHome/modules/videocap/demo/src/savevideo.cpp
+
+src/CMakeFiles/avstream.dir/savevideo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/avstream.dir/savevideo.cpp.i"
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/demo/src/savevideo.cpp > CMakeFiles/avstream.dir/savevideo.cpp.i
+
+src/CMakeFiles/avstream.dir/savevideo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/avstream.dir/savevideo.cpp.s"
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/demo/src/savevideo.cpp -o CMakeFiles/avstream.dir/savevideo.cpp.s
+
+src/CMakeFiles/avstream.dir/savevideo.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/avstream.dir/savevideo.cpp.o.requires
+
+src/CMakeFiles/avstream.dir/savevideo.cpp.o.provides: src/CMakeFiles/avstream.dir/savevideo.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/avstream.dir/build.make src/CMakeFiles/avstream.dir/savevideo.cpp.o.provides.build
+.PHONY : src/CMakeFiles/avstream.dir/savevideo.cpp.o.provides
+
+src/CMakeFiles/avstream.dir/savevideo.cpp.o.provides.build: src/CMakeFiles/avstream.dir/savevideo.cpp.o
+
+
 src/CMakeFiles/avstream.dir/webcamdata.cpp.o: src/CMakeFiles/avstream.dir/flags.make
 src/CMakeFiles/avstream.dir/webcamdata.cpp.o: ../src/webcamdata.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/avstream.dir/webcamdata.cpp.o"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/avstream.dir/webcamdata.cpp.o -c /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/src/webcamdata.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/avstream.dir/webcamdata.cpp.o"
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/avstream.dir/webcamdata.cpp.o -c /home/administrator/Projects/SmartHome/modules/videocap/demo/src/webcamdata.cpp
 
 src/CMakeFiles/avstream.dir/webcamdata.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/avstream.dir/webcamdata.cpp.i"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/src/webcamdata.cpp > CMakeFiles/avstream.dir/webcamdata.cpp.i
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/demo/src/webcamdata.cpp > CMakeFiles/avstream.dir/webcamdata.cpp.i
 
 src/CMakeFiles/avstream.dir/webcamdata.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/avstream.dir/webcamdata.cpp.s"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/src/webcamdata.cpp -o CMakeFiles/avstream.dir/webcamdata.cpp.s
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/demo/src/webcamdata.cpp -o CMakeFiles/avstream.dir/webcamdata.cpp.s
 
 src/CMakeFiles/avstream.dir/webcamdata.cpp.o.requires:
 
@@ -108,12 +132,14 @@ src/CMakeFiles/avstream.dir/webcamdata.cpp.o.provides.build: src/CMakeFiles/avst
 # Object files for target avstream
 avstream_OBJECTS = \
 "CMakeFiles/avstream.dir/main.cpp.o" \
+"CMakeFiles/avstream.dir/savevideo.cpp.o" \
 "CMakeFiles/avstream.dir/webcamdata.cpp.o"
 
 # External object files for target avstream
 avstream_EXTERNAL_OBJECTS =
 
 bin/avstream: src/CMakeFiles/avstream.dir/main.cpp.o
+bin/avstream: src/CMakeFiles/avstream.dir/savevideo.cpp.o
 bin/avstream: src/CMakeFiles/avstream.dir/webcamdata.cpp.o
 bin/avstream: src/CMakeFiles/avstream.dir/build.make
 bin/avstream: lib/libcomm.a
@@ -162,8 +188,8 @@ bin/avstream: /usr/local/lib/libopencv_objdetect.so.3.3.0
 bin/avstream: /usr/local/lib/libopencv_imgproc.so.3.3.0
 bin/avstream: /usr/local/lib/libopencv_core.so.3.3.0
 bin/avstream: src/CMakeFiles/avstream.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/avstream"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/avstream.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../bin/avstream"
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/avstream.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/avstream.dir/build: bin/avstream
@@ -171,15 +197,16 @@ src/CMakeFiles/avstream.dir/build: bin/avstream
 .PHONY : src/CMakeFiles/avstream.dir/build
 
 src/CMakeFiles/avstream.dir/requires: src/CMakeFiles/avstream.dir/main.cpp.o.requires
+src/CMakeFiles/avstream.dir/requires: src/CMakeFiles/avstream.dir/savevideo.cpp.o.requires
 src/CMakeFiles/avstream.dir/requires: src/CMakeFiles/avstream.dir/webcamdata.cpp.o.requires
 
 .PHONY : src/CMakeFiles/avstream.dir/requires
 
 src/CMakeFiles/avstream.dir/clean:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/src && $(CMAKE_COMMAND) -P CMakeFiles/avstream.dir/cmake_clean.cmake
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/src && $(CMAKE_COMMAND) -P CMakeFiles/avstream.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/avstream.dir/clean
 
 src/CMakeFiles/avstream.dir/depend:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/src /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/src /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/src/CMakeFiles/avstream.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/administrator/Projects/SmartHome/modules/videocap/demo /home/administrator/Projects/SmartHome/modules/videocap/demo/src /home/administrator/Projects/SmartHome/modules/videocap/demo/build /home/administrator/Projects/SmartHome/modules/videocap/demo/build/src /home/administrator/Projects/SmartHome/modules/videocap/demo/build/src/CMakeFiles/avstream.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/avstream.dir/depend
 

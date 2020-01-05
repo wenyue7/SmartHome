@@ -1,7 +1,7 @@
 #include "webcamdata.h"
 
 
-WebCamData::WebCamData(std::string str): webCamID(str)
+WebCamData::WebCamData(int index, std::string str): camIndex(index), webCamURI(str)
 {
 	m_mutex = PTHREAD_MUTEX_INITIALIZER;
 }

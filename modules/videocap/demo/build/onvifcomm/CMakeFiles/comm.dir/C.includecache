@@ -222,7 +222,7 @@ smdevp.h
 mecevp.h
 ../onvif/mecevp.h
 
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvifcomm/onvif_comm.c
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvifcomm/onvif_comm.c
 stdio.h
 -
 stdlib.h
@@ -230,13 +230,13 @@ stdlib.h
 assert.h
 -
 wsseapi.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvifcomm/wsseapi.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvifcomm/wsseapi.h
 onvif_comm.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvifcomm/onvif_comm.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvifcomm/onvif_comm.h
 onvif_dump.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvifcomm/onvif_dump.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvifcomm/onvif_dump.h
 
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvifcomm/onvif_comm.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvifcomm/onvif_comm.h
 stdio.h
 -
 stdlib.h
@@ -244,15 +244,15 @@ stdlib.h
 assert.h
 -
 soapH.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvifcomm/soapH.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvifcomm/soapH.h
 wsaapi.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvifcomm/wsaapi.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvifcomm/wsaapi.h
 
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvifcomm/onvif_dump.c
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvifcomm/onvif_dump.c
 onvif_dump.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvifcomm/onvif_dump.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvifcomm/onvif_dump.h
 
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvifcomm/onvif_dump.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvifcomm/onvif_dump.h
 stdio.h
 -
 stdlib.h
@@ -260,7 +260,7 @@ stdlib.h
 assert.h
 -
 soapH.h
-/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvifcomm/soapH.h
+/home/administrator/Projects/SmartHome/modules/videocap/demo/onvifcomm/soapH.h
 stdarg.h
 -
 

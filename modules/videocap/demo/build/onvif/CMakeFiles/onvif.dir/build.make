@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine
+CMAKE_SOURCE_DIR = /home/administrator/Projects/SmartHome/modules/videocap/demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build
+CMAKE_BINARY_DIR = /home/administrator/Projects/SmartHome/modules/videocap/demo/build
 
 # Include any dependencies generated for this target.
 include onvif/CMakeFiles/onvif.dir/depend.make
@@ -59,16 +59,16 @@ include onvif/CMakeFiles/onvif.dir/flags.make
 
 onvif/CMakeFiles/onvif.dir/dom.c.o: onvif/CMakeFiles/onvif.dir/flags.make
 onvif/CMakeFiles/onvif.dir/dom.c.o: ../onvif/dom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object onvif/CMakeFiles/onvif.dir/dom.c.o"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onvif.dir/dom.c.o   -c /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/dom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object onvif/CMakeFiles/onvif.dir/dom.c.o"
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onvif.dir/dom.c.o   -c /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/dom.c
 
 onvif/CMakeFiles/onvif.dir/dom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onvif.dir/dom.c.i"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/dom.c > CMakeFiles/onvif.dir/dom.c.i
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/dom.c > CMakeFiles/onvif.dir/dom.c.i
 
 onvif/CMakeFiles/onvif.dir/dom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onvif.dir/dom.c.s"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/dom.c -o CMakeFiles/onvif.dir/dom.c.s
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/dom.c -o CMakeFiles/onvif.dir/dom.c.s
 
 onvif/CMakeFiles/onvif.dir/dom.c.o.requires:
 
@@ -83,16 +83,16 @@ onvif/CMakeFiles/onvif.dir/dom.c.o.provides.build: onvif/CMakeFiles/onvif.dir/do
 
 onvif/CMakeFiles/onvif.dir/duration.c.o: onvif/CMakeFiles/onvif.dir/flags.make
 onvif/CMakeFiles/onvif.dir/duration.c.o: ../onvif/duration.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object onvif/CMakeFiles/onvif.dir/duration.c.o"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onvif.dir/duration.c.o   -c /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/duration.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object onvif/CMakeFiles/onvif.dir/duration.c.o"
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onvif.dir/duration.c.o   -c /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/duration.c
 
 onvif/CMakeFiles/onvif.dir/duration.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onvif.dir/duration.c.i"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/duration.c > CMakeFiles/onvif.dir/duration.c.i
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/duration.c > CMakeFiles/onvif.dir/duration.c.i
 
 onvif/CMakeFiles/onvif.dir/duration.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onvif.dir/duration.c.s"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/duration.c -o CMakeFiles/onvif.dir/duration.c.s
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/duration.c -o CMakeFiles/onvif.dir/duration.c.s
 
 onvif/CMakeFiles/onvif.dir/duration.c.o.requires:
 
@@ -107,16 +107,16 @@ onvif/CMakeFiles/onvif.dir/duration.c.o.provides.build: onvif/CMakeFiles/onvif.d
 
 onvif/CMakeFiles/onvif.dir/mecevp.c.o: onvif/CMakeFiles/onvif.dir/flags.make
 onvif/CMakeFiles/onvif.dir/mecevp.c.o: ../onvif/mecevp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object onvif/CMakeFiles/onvif.dir/mecevp.c.o"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onvif.dir/mecevp.c.o   -c /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/mecevp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object onvif/CMakeFiles/onvif.dir/mecevp.c.o"
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onvif.dir/mecevp.c.o   -c /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/mecevp.c
 
 onvif/CMakeFiles/onvif.dir/mecevp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onvif.dir/mecevp.c.i"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/mecevp.c > CMakeFiles/onvif.dir/mecevp.c.i
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/mecevp.c > CMakeFiles/onvif.dir/mecevp.c.i
 
 onvif/CMakeFiles/onvif.dir/mecevp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onvif.dir/mecevp.c.s"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/mecevp.c -o CMakeFiles/onvif.dir/mecevp.c.s
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/mecevp.c -o CMakeFiles/onvif.dir/mecevp.c.s
 
 onvif/CMakeFiles/onvif.dir/mecevp.c.o.requires:
 
@@ -131,16 +131,16 @@ onvif/CMakeFiles/onvif.dir/mecevp.c.o.provides.build: onvif/CMakeFiles/onvif.dir
 
 onvif/CMakeFiles/onvif.dir/smdevp.c.o: onvif/CMakeFiles/onvif.dir/flags.make
 onvif/CMakeFiles/onvif.dir/smdevp.c.o: ../onvif/smdevp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object onvif/CMakeFiles/onvif.dir/smdevp.c.o"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onvif.dir/smdevp.c.o   -c /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/smdevp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object onvif/CMakeFiles/onvif.dir/smdevp.c.o"
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onvif.dir/smdevp.c.o   -c /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/smdevp.c
 
 onvif/CMakeFiles/onvif.dir/smdevp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onvif.dir/smdevp.c.i"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/smdevp.c > CMakeFiles/onvif.dir/smdevp.c.i
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/smdevp.c > CMakeFiles/onvif.dir/smdevp.c.i
 
 onvif/CMakeFiles/onvif.dir/smdevp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onvif.dir/smdevp.c.s"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/smdevp.c -o CMakeFiles/onvif.dir/smdevp.c.s
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/smdevp.c -o CMakeFiles/onvif.dir/smdevp.c.s
 
 onvif/CMakeFiles/onvif.dir/smdevp.c.o.requires:
 
@@ -155,16 +155,16 @@ onvif/CMakeFiles/onvif.dir/smdevp.c.o.provides.build: onvif/CMakeFiles/onvif.dir
 
 onvif/CMakeFiles/onvif.dir/soapC.c.o: onvif/CMakeFiles/onvif.dir/flags.make
 onvif/CMakeFiles/onvif.dir/soapC.c.o: ../onvif/soapC.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object onvif/CMakeFiles/onvif.dir/soapC.c.o"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onvif.dir/soapC.c.o   -c /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/soapC.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object onvif/CMakeFiles/onvif.dir/soapC.c.o"
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onvif.dir/soapC.c.o   -c /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/soapC.c
 
 onvif/CMakeFiles/onvif.dir/soapC.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onvif.dir/soapC.c.i"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/soapC.c > CMakeFiles/onvif.dir/soapC.c.i
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/soapC.c > CMakeFiles/onvif.dir/soapC.c.i
 
 onvif/CMakeFiles/onvif.dir/soapC.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onvif.dir/soapC.c.s"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/soapC.c -o CMakeFiles/onvif.dir/soapC.c.s
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/soapC.c -o CMakeFiles/onvif.dir/soapC.c.s
 
 onvif/CMakeFiles/onvif.dir/soapC.c.o.requires:
 
@@ -179,16 +179,16 @@ onvif/CMakeFiles/onvif.dir/soapC.c.o.provides.build: onvif/CMakeFiles/onvif.dir/
 
 onvif/CMakeFiles/onvif.dir/soapClient.c.o: onvif/CMakeFiles/onvif.dir/flags.make
 onvif/CMakeFiles/onvif.dir/soapClient.c.o: ../onvif/soapClient.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object onvif/CMakeFiles/onvif.dir/soapClient.c.o"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onvif.dir/soapClient.c.o   -c /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/soapClient.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object onvif/CMakeFiles/onvif.dir/soapClient.c.o"
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onvif.dir/soapClient.c.o   -c /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/soapClient.c
 
 onvif/CMakeFiles/onvif.dir/soapClient.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onvif.dir/soapClient.c.i"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/soapClient.c > CMakeFiles/onvif.dir/soapClient.c.i
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/soapClient.c > CMakeFiles/onvif.dir/soapClient.c.i
 
 onvif/CMakeFiles/onvif.dir/soapClient.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onvif.dir/soapClient.c.s"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/soapClient.c -o CMakeFiles/onvif.dir/soapClient.c.s
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/soapClient.c -o CMakeFiles/onvif.dir/soapClient.c.s
 
 onvif/CMakeFiles/onvif.dir/soapClient.c.o.requires:
 
@@ -203,16 +203,16 @@ onvif/CMakeFiles/onvif.dir/soapClient.c.o.provides.build: onvif/CMakeFiles/onvif
 
 onvif/CMakeFiles/onvif.dir/stdsoap2.c.o: onvif/CMakeFiles/onvif.dir/flags.make
 onvif/CMakeFiles/onvif.dir/stdsoap2.c.o: ../onvif/stdsoap2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object onvif/CMakeFiles/onvif.dir/stdsoap2.c.o"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onvif.dir/stdsoap2.c.o   -c /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/stdsoap2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object onvif/CMakeFiles/onvif.dir/stdsoap2.c.o"
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onvif.dir/stdsoap2.c.o   -c /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/stdsoap2.c
 
 onvif/CMakeFiles/onvif.dir/stdsoap2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onvif.dir/stdsoap2.c.i"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/stdsoap2.c > CMakeFiles/onvif.dir/stdsoap2.c.i
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/stdsoap2.c > CMakeFiles/onvif.dir/stdsoap2.c.i
 
 onvif/CMakeFiles/onvif.dir/stdsoap2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onvif.dir/stdsoap2.c.s"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/stdsoap2.c -o CMakeFiles/onvif.dir/stdsoap2.c.s
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/stdsoap2.c -o CMakeFiles/onvif.dir/stdsoap2.c.s
 
 onvif/CMakeFiles/onvif.dir/stdsoap2.c.o.requires:
 
@@ -227,16 +227,16 @@ onvif/CMakeFiles/onvif.dir/stdsoap2.c.o.provides.build: onvif/CMakeFiles/onvif.d
 
 onvif/CMakeFiles/onvif.dir/threads.c.o: onvif/CMakeFiles/onvif.dir/flags.make
 onvif/CMakeFiles/onvif.dir/threads.c.o: ../onvif/threads.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object onvif/CMakeFiles/onvif.dir/threads.c.o"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onvif.dir/threads.c.o   -c /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/threads.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object onvif/CMakeFiles/onvif.dir/threads.c.o"
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onvif.dir/threads.c.o   -c /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/threads.c
 
 onvif/CMakeFiles/onvif.dir/threads.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onvif.dir/threads.c.i"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/threads.c > CMakeFiles/onvif.dir/threads.c.i
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/threads.c > CMakeFiles/onvif.dir/threads.c.i
 
 onvif/CMakeFiles/onvif.dir/threads.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onvif.dir/threads.c.s"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/threads.c -o CMakeFiles/onvif.dir/threads.c.s
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/threads.c -o CMakeFiles/onvif.dir/threads.c.s
 
 onvif/CMakeFiles/onvif.dir/threads.c.o.requires:
 
@@ -251,16 +251,16 @@ onvif/CMakeFiles/onvif.dir/threads.c.o.provides.build: onvif/CMakeFiles/onvif.di
 
 onvif/CMakeFiles/onvif.dir/wsaapi.c.o: onvif/CMakeFiles/onvif.dir/flags.make
 onvif/CMakeFiles/onvif.dir/wsaapi.c.o: ../onvif/wsaapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object onvif/CMakeFiles/onvif.dir/wsaapi.c.o"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onvif.dir/wsaapi.c.o   -c /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsaapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object onvif/CMakeFiles/onvif.dir/wsaapi.c.o"
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onvif.dir/wsaapi.c.o   -c /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsaapi.c
 
 onvif/CMakeFiles/onvif.dir/wsaapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onvif.dir/wsaapi.c.i"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsaapi.c > CMakeFiles/onvif.dir/wsaapi.c.i
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsaapi.c > CMakeFiles/onvif.dir/wsaapi.c.i
 
 onvif/CMakeFiles/onvif.dir/wsaapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onvif.dir/wsaapi.c.s"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsaapi.c -o CMakeFiles/onvif.dir/wsaapi.c.s
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsaapi.c -o CMakeFiles/onvif.dir/wsaapi.c.s
 
 onvif/CMakeFiles/onvif.dir/wsaapi.c.o.requires:
 
@@ -275,16 +275,16 @@ onvif/CMakeFiles/onvif.dir/wsaapi.c.o.provides.build: onvif/CMakeFiles/onvif.dir
 
 onvif/CMakeFiles/onvif.dir/wsseapi.c.o: onvif/CMakeFiles/onvif.dir/flags.make
 onvif/CMakeFiles/onvif.dir/wsseapi.c.o: ../onvif/wsseapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object onvif/CMakeFiles/onvif.dir/wsseapi.c.o"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onvif.dir/wsseapi.c.o   -c /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsseapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object onvif/CMakeFiles/onvif.dir/wsseapi.c.o"
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onvif.dir/wsseapi.c.o   -c /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsseapi.c
 
 onvif/CMakeFiles/onvif.dir/wsseapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onvif.dir/wsseapi.c.i"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsseapi.c > CMakeFiles/onvif.dir/wsseapi.c.i
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsseapi.c > CMakeFiles/onvif.dir/wsseapi.c.i
 
 onvif/CMakeFiles/onvif.dir/wsseapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onvif.dir/wsseapi.c.s"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif/wsseapi.c -o CMakeFiles/onvif.dir/wsseapi.c.s
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif/wsseapi.c -o CMakeFiles/onvif.dir/wsseapi.c.s
 
 onvif/CMakeFiles/onvif.dir/wsseapi.c.o.requires:
 
@@ -325,9 +325,9 @@ lib/libonvif.a: onvif/CMakeFiles/onvif.dir/wsaapi.c.o
 lib/libonvif.a: onvif/CMakeFiles/onvif.dir/wsseapi.c.o
 lib/libonvif.a: onvif/CMakeFiles/onvif.dir/build.make
 lib/libonvif.a: onvif/CMakeFiles/onvif.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C static library ../lib/libonvif.a"
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && $(CMAKE_COMMAND) -P CMakeFiles/onvif.dir/cmake_clean_target.cmake
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/onvif.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/administrator/Projects/SmartHome/modules/videocap/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C static library ../lib/libonvif.a"
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && $(CMAKE_COMMAND) -P CMakeFiles/onvif.dir/cmake_clean_target.cmake
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/onvif.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 onvif/CMakeFiles/onvif.dir/build: lib/libonvif.a
@@ -348,10 +348,10 @@ onvif/CMakeFiles/onvif.dir/requires: onvif/CMakeFiles/onvif.dir/wsseapi.c.o.requ
 .PHONY : onvif/CMakeFiles/onvif.dir/requires
 
 onvif/CMakeFiles/onvif.dir/clean:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif && $(CMAKE_COMMAND) -P CMakeFiles/onvif.dir/cmake_clean.cmake
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif && $(CMAKE_COMMAND) -P CMakeFiles/onvif.dir/cmake_clean.cmake
 .PHONY : onvif/CMakeFiles/onvif.dir/clean
 
 onvif/CMakeFiles/onvif.dir/depend:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif/CMakeFiles/onvif.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/administrator/Projects/SmartHome/modules/videocap/demo /home/administrator/Projects/SmartHome/modules/videocap/demo/onvif /home/administrator/Projects/SmartHome/modules/videocap/demo/build /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif/CMakeFiles/onvif.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : onvif/CMakeFiles/onvif.dir/depend
 

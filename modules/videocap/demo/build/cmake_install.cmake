@@ -1,4 +1,4 @@
-# Install script for directory: /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine
+# Install script for directory: /home/administrator/Projects/SmartHome/modules/videocap/demo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif/cmake_install.cmake")
-  include("/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvifcomm/cmake_install.cmake")
-  include("/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/src/cmake_install.cmake")
+  include("/home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif/cmake_install.cmake")
+  include("/home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvifcomm/cmake_install.cmake")
+  include("/home/administrator/Projects/SmartHome/modules/videocap/demo/build/src/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/administrator/Projects/SmartHome/modules/videocap/demo/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -4,7 +4,8 @@ CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 # Define project name
 PROJECT(onvifCam)
 
-INCLUDE_DIRECTORIES(src onvif
+INCLUDE_DIRECTORIES(include
+	onvif
 	onvifcomm
 	/usr/local/include)
 

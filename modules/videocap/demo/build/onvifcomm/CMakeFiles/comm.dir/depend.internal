@@ -9,12 +9,12 @@ onvifcomm/CMakeFiles/comm.dir/onvif_comm.c.o
  ../onvif/stdsoap2.h
  ../onvif/wsaapi.h
  ../onvif/wsseapi.h
- /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvifcomm/onvif_comm.c
- /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvifcomm/onvif_comm.h
- /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvifcomm/onvif_dump.h
+ /home/administrator/Projects/SmartHome/modules/videocap/demo/onvifcomm/onvif_comm.c
+ /home/administrator/Projects/SmartHome/modules/videocap/demo/onvifcomm/onvif_comm.h
+ /home/administrator/Projects/SmartHome/modules/videocap/demo/onvifcomm/onvif_dump.h
 onvifcomm/CMakeFiles/comm.dir/onvif_dump.c.o
  ../onvif/soapH.h
  ../onvif/soapStub.h
  ../onvif/stdsoap2.h
- /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvifcomm/onvif_dump.c
- /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvifcomm/onvif_dump.h
+ /home/administrator/Projects/SmartHome/modules/videocap/demo/onvifcomm/onvif_dump.c
+ /home/administrator/Projects/SmartHome/modules/videocap/demo/onvifcomm/onvif_dump.h

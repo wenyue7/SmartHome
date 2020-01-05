@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/src -I/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif -I/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvifcomm -isystem /usr/local/include -isystem /usr/local/include/opencv 
+CXX_INCLUDES = -I/home/administrator/Projects/SmartHome/modules/videocap/demo/include -I/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif -I/home/administrator/Projects/SmartHome/modules/videocap/demo/onvifcomm -isystem /usr/local/include -isystem /usr/local/include/opencv 
 

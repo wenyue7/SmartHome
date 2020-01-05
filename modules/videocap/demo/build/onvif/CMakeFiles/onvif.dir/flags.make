@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/src -I/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvif -I/home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/onvifcomm -I/usr/local/include 
+C_INCLUDES = -I/home/administrator/Projects/SmartHome/modules/videocap/demo/include -I/home/administrator/Projects/SmartHome/modules/videocap/demo/onvif -I/home/administrator/Projects/SmartHome/modules/videocap/demo/onvifcomm -I/usr/local/include 
 

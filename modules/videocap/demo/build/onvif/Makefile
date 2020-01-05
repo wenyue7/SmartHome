@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine
+CMAKE_SOURCE_DIR = /home/administrator/Projects/SmartHome/modules/videocap/demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build
+CMAKE_BINARY_DIR = /home/administrator/Projects/SmartHome/modules/videocap/demo/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/CMakeFiles /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/onvif/CMakeFiles/progress.marks
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f CMakeFiles/Makefile2 onvif/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/CMakeFiles 0
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Projects/SmartHome/modules/videocap/demo/build/CMakeFiles /home/administrator/Projects/SmartHome/modules/videocap/demo/build/onvif/CMakeFiles/progress.marks
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f CMakeFiles/Makefile2 onvif/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Projects/SmartHome/modules/videocap/demo/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f CMakeFiles/Makefile2 onvif/clean
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f CMakeFiles/Makefile2 onvif/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f CMakeFiles/Makefile2 onvif/preinstall
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f CMakeFiles/Makefile2 onvif/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f CMakeFiles/Makefile2 onvif/preinstall
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f CMakeFiles/Makefile2 onvif/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 onvif/CMakeFiles/onvif.dir/rule:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f CMakeFiles/Makefile2 onvif/CMakeFiles/onvif.dir/rule
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f CMakeFiles/Makefile2 onvif/CMakeFiles/onvif.dir/rule
 .PHONY : onvif/CMakeFiles/onvif.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ onvif: onvif/CMakeFiles/onvif.dir/rule
 
 # fast build rule for target.
 onvif/fast:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/build
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/build
 .PHONY : onvif/fast
 
 dom.o: dom.c.o
@@ -131,7 +131,7 @@ dom.o: dom.c.o
 
 # target to build an object file
 dom.c.o:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/dom.c.o
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/dom.c.o
 .PHONY : dom.c.o
 
 dom.i: dom.c.i
@@ -140,7 +140,7 @@ dom.i: dom.c.i
 
 # target to preprocess a source file
 dom.c.i:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/dom.c.i
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/dom.c.i
 .PHONY : dom.c.i
 
 dom.s: dom.c.s
@@ -149,7 +149,7 @@ dom.s: dom.c.s
 
 # target to generate assembly for a file
 dom.c.s:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/dom.c.s
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/dom.c.s
 .PHONY : dom.c.s
 
 duration.o: duration.c.o
@@ -158,7 +158,7 @@ duration.o: duration.c.o
 
 # target to build an object file
 duration.c.o:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/duration.c.o
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/duration.c.o
 .PHONY : duration.c.o
 
 duration.i: duration.c.i
@@ -167,7 +167,7 @@ duration.i: duration.c.i
 
 # target to preprocess a source file
 duration.c.i:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/duration.c.i
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/duration.c.i
 .PHONY : duration.c.i
 
 duration.s: duration.c.s
@@ -176,7 +176,7 @@ duration.s: duration.c.s
 
 # target to generate assembly for a file
 duration.c.s:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/duration.c.s
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/duration.c.s
 .PHONY : duration.c.s
 
 mecevp.o: mecevp.c.o
@@ -185,7 +185,7 @@ mecevp.o: mecevp.c.o
 
 # target to build an object file
 mecevp.c.o:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/mecevp.c.o
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/mecevp.c.o
 .PHONY : mecevp.c.o
 
 mecevp.i: mecevp.c.i
@@ -194,7 +194,7 @@ mecevp.i: mecevp.c.i
 
 # target to preprocess a source file
 mecevp.c.i:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/mecevp.c.i
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/mecevp.c.i
 .PHONY : mecevp.c.i
 
 mecevp.s: mecevp.c.s
@@ -203,7 +203,7 @@ mecevp.s: mecevp.c.s
 
 # target to generate assembly for a file
 mecevp.c.s:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/mecevp.c.s
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/mecevp.c.s
 .PHONY : mecevp.c.s
 
 smdevp.o: smdevp.c.o
@@ -212,7 +212,7 @@ smdevp.o: smdevp.c.o
 
 # target to build an object file
 smdevp.c.o:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/smdevp.c.o
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/smdevp.c.o
 .PHONY : smdevp.c.o
 
 smdevp.i: smdevp.c.i
@@ -221,7 +221,7 @@ smdevp.i: smdevp.c.i
 
 # target to preprocess a source file
 smdevp.c.i:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/smdevp.c.i
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/smdevp.c.i
 .PHONY : smdevp.c.i
 
 smdevp.s: smdevp.c.s
@@ -230,7 +230,7 @@ smdevp.s: smdevp.c.s
 
 # target to generate assembly for a file
 smdevp.c.s:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/smdevp.c.s
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/smdevp.c.s
 .PHONY : smdevp.c.s
 
 soapC.o: soapC.c.o
@@ -239,7 +239,7 @@ soapC.o: soapC.c.o
 
 # target to build an object file
 soapC.c.o:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/soapC.c.o
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/soapC.c.o
 .PHONY : soapC.c.o
 
 soapC.i: soapC.c.i
@@ -248,7 +248,7 @@ soapC.i: soapC.c.i
 
 # target to preprocess a source file
 soapC.c.i:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/soapC.c.i
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/soapC.c.i
 .PHONY : soapC.c.i
 
 soapC.s: soapC.c.s
@@ -257,7 +257,7 @@ soapC.s: soapC.c.s
 
 # target to generate assembly for a file
 soapC.c.s:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/soapC.c.s
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/soapC.c.s
 .PHONY : soapC.c.s
 
 soapClient.o: soapClient.c.o
@@ -266,7 +266,7 @@ soapClient.o: soapClient.c.o
 
 # target to build an object file
 soapClient.c.o:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/soapClient.c.o
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/soapClient.c.o
 .PHONY : soapClient.c.o
 
 soapClient.i: soapClient.c.i
@@ -275,7 +275,7 @@ soapClient.i: soapClient.c.i
 
 # target to preprocess a source file
 soapClient.c.i:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/soapClient.c.i
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/soapClient.c.i
 .PHONY : soapClient.c.i
 
 soapClient.s: soapClient.c.s
@@ -284,7 +284,7 @@ soapClient.s: soapClient.c.s
 
 # target to generate assembly for a file
 soapClient.c.s:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/soapClient.c.s
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/soapClient.c.s
 .PHONY : soapClient.c.s
 
 stdsoap2.o: stdsoap2.c.o
@@ -293,7 +293,7 @@ stdsoap2.o: stdsoap2.c.o
 
 # target to build an object file
 stdsoap2.c.o:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/stdsoap2.c.o
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/stdsoap2.c.o
 .PHONY : stdsoap2.c.o
 
 stdsoap2.i: stdsoap2.c.i
@@ -302,7 +302,7 @@ stdsoap2.i: stdsoap2.c.i
 
 # target to preprocess a source file
 stdsoap2.c.i:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/stdsoap2.c.i
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/stdsoap2.c.i
 .PHONY : stdsoap2.c.i
 
 stdsoap2.s: stdsoap2.c.s
@@ -311,7 +311,7 @@ stdsoap2.s: stdsoap2.c.s
 
 # target to generate assembly for a file
 stdsoap2.c.s:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/stdsoap2.c.s
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/stdsoap2.c.s
 .PHONY : stdsoap2.c.s
 
 threads.o: threads.c.o
@@ -320,7 +320,7 @@ threads.o: threads.c.o
 
 # target to build an object file
 threads.c.o:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/threads.c.o
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/threads.c.o
 .PHONY : threads.c.o
 
 threads.i: threads.c.i
@@ -329,7 +329,7 @@ threads.i: threads.c.i
 
 # target to preprocess a source file
 threads.c.i:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/threads.c.i
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/threads.c.i
 .PHONY : threads.c.i
 
 threads.s: threads.c.s
@@ -338,7 +338,7 @@ threads.s: threads.c.s
 
 # target to generate assembly for a file
 threads.c.s:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/threads.c.s
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/threads.c.s
 .PHONY : threads.c.s
 
 wsaapi.o: wsaapi.c.o
@@ -347,7 +347,7 @@ wsaapi.o: wsaapi.c.o
 
 # target to build an object file
 wsaapi.c.o:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/wsaapi.c.o
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/wsaapi.c.o
 .PHONY : wsaapi.c.o
 
 wsaapi.i: wsaapi.c.i
@@ -356,7 +356,7 @@ wsaapi.i: wsaapi.c.i
 
 # target to preprocess a source file
 wsaapi.c.i:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/wsaapi.c.i
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/wsaapi.c.i
 .PHONY : wsaapi.c.i
 
 wsaapi.s: wsaapi.c.s
@@ -365,7 +365,7 @@ wsaapi.s: wsaapi.c.s
 
 # target to generate assembly for a file
 wsaapi.c.s:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/wsaapi.c.s
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/wsaapi.c.s
 .PHONY : wsaapi.c.s
 
 wsseapi.o: wsseapi.c.o
@@ -374,7 +374,7 @@ wsseapi.o: wsseapi.c.o
 
 # target to build an object file
 wsseapi.c.o:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/wsseapi.c.o
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/wsseapi.c.o
 .PHONY : wsseapi.c.o
 
 wsseapi.i: wsseapi.c.i
@@ -383,7 +383,7 @@ wsseapi.i: wsseapi.c.i
 
 # target to preprocess a source file
 wsseapi.c.i:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/wsseapi.c.i
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/wsseapi.c.i
 .PHONY : wsseapi.c.i
 
 wsseapi.s: wsseapi.c.s
@@ -392,7 +392,7 @@ wsseapi.s: wsseapi.c.s
 
 # target to generate assembly for a file
 wsseapi.c.s:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/wsseapi.c.s
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f onvif/CMakeFiles/onvif.dir/build.make onvif/CMakeFiles/onvif.dir/wsseapi.c.s
 .PHONY : wsseapi.c.s
 
 # Help Target
@@ -445,6 +445,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

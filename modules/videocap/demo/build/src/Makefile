@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine
+CMAKE_SOURCE_DIR = /home/administrator/Projects/SmartHome/modules/videocap/demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build
+CMAKE_BINARY_DIR = /home/administrator/Projects/SmartHome/modules/videocap/demo/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/CMakeFiles /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/src/CMakeFiles/progress.marks
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build/CMakeFiles 0
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Projects/SmartHome/modules/videocap/demo/build/CMakeFiles /home/administrator/Projects/SmartHome/modules/videocap/demo/build/src/CMakeFiles/progress.marks
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/Projects/SmartHome/modules/videocap/demo/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/avstream.dir/rule:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/avstream.dir/rule
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/avstream.dir/rule
 .PHONY : src/CMakeFiles/avstream.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ avstream: src/CMakeFiles/avstream.dir/rule
 
 # fast build rule for target.
 avstream/fast:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f src/CMakeFiles/avstream.dir/build.make src/CMakeFiles/avstream.dir/build
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f src/CMakeFiles/avstream.dir/build.make src/CMakeFiles/avstream.dir/build
 .PHONY : avstream/fast
 
 main.o: main.cpp.o
@@ -131,7 +131,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f src/CMakeFiles/avstream.dir/build.make src/CMakeFiles/avstream.dir/main.cpp.o
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f src/CMakeFiles/avstream.dir/build.make src/CMakeFiles/avstream.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -140,7 +140,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f src/CMakeFiles/avstream.dir/build.make src/CMakeFiles/avstream.dir/main.cpp.i
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f src/CMakeFiles/avstream.dir/build.make src/CMakeFiles/avstream.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -149,8 +149,35 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f src/CMakeFiles/avstream.dir/build.make src/CMakeFiles/avstream.dir/main.cpp.s
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f src/CMakeFiles/avstream.dir/build.make src/CMakeFiles/avstream.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+savevideo.o: savevideo.cpp.o
+
+.PHONY : savevideo.o
+
+# target to build an object file
+savevideo.cpp.o:
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f src/CMakeFiles/avstream.dir/build.make src/CMakeFiles/avstream.dir/savevideo.cpp.o
+.PHONY : savevideo.cpp.o
+
+savevideo.i: savevideo.cpp.i
+
+.PHONY : savevideo.i
+
+# target to preprocess a source file
+savevideo.cpp.i:
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f src/CMakeFiles/avstream.dir/build.make src/CMakeFiles/avstream.dir/savevideo.cpp.i
+.PHONY : savevideo.cpp.i
+
+savevideo.s: savevideo.cpp.s
+
+.PHONY : savevideo.s
+
+# target to generate assembly for a file
+savevideo.cpp.s:
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f src/CMakeFiles/avstream.dir/build.make src/CMakeFiles/avstream.dir/savevideo.cpp.s
+.PHONY : savevideo.cpp.s
 
 webcamdata.o: webcamdata.cpp.o
 
@@ -158,7 +185,7 @@ webcamdata.o: webcamdata.cpp.o
 
 # target to build an object file
 webcamdata.cpp.o:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f src/CMakeFiles/avstream.dir/build.make src/CMakeFiles/avstream.dir/webcamdata.cpp.o
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f src/CMakeFiles/avstream.dir/build.make src/CMakeFiles/avstream.dir/webcamdata.cpp.o
 .PHONY : webcamdata.cpp.o
 
 webcamdata.i: webcamdata.cpp.i
@@ -167,7 +194,7 @@ webcamdata.i: webcamdata.cpp.i
 
 # target to preprocess a source file
 webcamdata.cpp.i:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f src/CMakeFiles/avstream.dir/build.make src/CMakeFiles/avstream.dir/webcamdata.cpp.i
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f src/CMakeFiles/avstream.dir/build.make src/CMakeFiles/avstream.dir/webcamdata.cpp.i
 .PHONY : webcamdata.cpp.i
 
 webcamdata.s: webcamdata.cpp.s
@@ -176,7 +203,7 @@ webcamdata.s: webcamdata.cpp.s
 
 # target to generate assembly for a file
 webcamdata.cpp.s:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(MAKE) -f src/CMakeFiles/avstream.dir/build.make src/CMakeFiles/avstream.dir/webcamdata.cpp.s
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f src/CMakeFiles/avstream.dir/build.make src/CMakeFiles/avstream.dir/webcamdata.cpp.s
 .PHONY : webcamdata.cpp.s
 
 # Help Target
@@ -191,6 +218,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... savevideo.o"
+	@echo "... savevideo.i"
+	@echo "... savevideo.s"
 	@echo "... webcamdata.o"
 	@echo "... webcamdata.i"
 	@echo "... webcamdata.s"
@@ -205,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/test/onvif2/onvifDemo/mine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
