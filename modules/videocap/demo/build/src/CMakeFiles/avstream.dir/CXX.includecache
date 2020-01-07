@@ -6,24 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../include/savevideo.h
-iostream
--
-sstream
--
-opencv2/opencv.hpp
--
-libavutil/opt.h
--
-libavcodec/avcodec.h
--
-libavformat/avformat.h
--
-libavutil/time.h
--
-libavutil/timestamp.h
--
-
 ../include/thread_pool.h
 stdio.h
 -
@@ -301,10 +283,6 @@ thread_pool.h
 /home/administrator/Projects/SmartHome/modules/videocap/demo/src/thread_pool.h
 webcamdata.h
 /home/administrator/Projects/SmartHome/modules/videocap/demo/src/webcamdata.h
-
-/home/administrator/Projects/SmartHome/modules/videocap/demo/src/savevideo.cpp
-savevideo.h
-/home/administrator/Projects/SmartHome/modules/videocap/demo/src/savevideo.h
 
 /home/administrator/Projects/SmartHome/modules/videocap/demo/src/webcamdata.cpp
 webcamdata.h
@@ -623,10 +601,6 @@ attributes.h
 /usr/local/include/libavutil/time.h
 stdint.h
 -
-
-/usr/local/include/libavutil/timestamp.h
-common.h
-/usr/local/include/libavutil/common.h
 
 /usr/local/include/libavutil/version.h
 macros.h

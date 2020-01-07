@@ -152,33 +152,6 @@ main.cpp.s:
 	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f src/CMakeFiles/avstream.dir/build.make src/CMakeFiles/avstream.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-savevideo.o: savevideo.cpp.o
-
-.PHONY : savevideo.o
-
-# target to build an object file
-savevideo.cpp.o:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f src/CMakeFiles/avstream.dir/build.make src/CMakeFiles/avstream.dir/savevideo.cpp.o
-.PHONY : savevideo.cpp.o
-
-savevideo.i: savevideo.cpp.i
-
-.PHONY : savevideo.i
-
-# target to preprocess a source file
-savevideo.cpp.i:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f src/CMakeFiles/avstream.dir/build.make src/CMakeFiles/avstream.dir/savevideo.cpp.i
-.PHONY : savevideo.cpp.i
-
-savevideo.s: savevideo.cpp.s
-
-.PHONY : savevideo.s
-
-# target to generate assembly for a file
-savevideo.cpp.s:
-	cd /home/administrator/Projects/SmartHome/modules/videocap/demo/build && $(MAKE) -f src/CMakeFiles/avstream.dir/build.make src/CMakeFiles/avstream.dir/savevideo.cpp.s
-.PHONY : savevideo.cpp.s
-
 webcamdata.o: webcamdata.cpp.o
 
 .PHONY : webcamdata.o
@@ -218,9 +191,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... savevideo.o"
-	@echo "... savevideo.i"
-	@echo "... savevideo.s"
 	@echo "... webcamdata.o"
 	@echo "... webcamdata.i"
 	@echo "... webcamdata.s"

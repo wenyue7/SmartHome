@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/avstream.dir/main.cpp.o"
-  "CMakeFiles/avstream.dir/savevideo.cpp.o"
   "CMakeFiles/avstream.dir/webcamdata.cpp.o"
   "../bin/avstream.pdb"
   "../bin/avstream"

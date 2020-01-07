@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/administrator/Projects/SmartHome/modules/videocap/demo/src/main.cpp" "/home/administrator/Projects/SmartHome/modules/videocap/demo/build/src/CMakeFiles/avstream.dir/main.cpp.o"
-  "/home/administrator/Projects/SmartHome/modules/videocap/demo/src/savevideo.cpp" "/home/administrator/Projects/SmartHome/modules/videocap/demo/build/src/CMakeFiles/avstream.dir/savevideo.cpp.o"
   "/home/administrator/Projects/SmartHome/modules/videocap/demo/src/webcamdata.cpp" "/home/administrator/Projects/SmartHome/modules/videocap/demo/build/src/CMakeFiles/avstream.dir/webcamdata.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
