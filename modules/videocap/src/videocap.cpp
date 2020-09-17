@@ -644,6 +644,7 @@ void* push_stream(void *arg)
 			ret = avio_open(&ofmt_ctx->pb, out_filename, AVIO_FLAG_WRITE);
 			if (ret < 0) {
 				printf( "Could not open output URL '%s'", out_filename);
+                continue;
 			}
 		}
 		//写文件头（Write file header）

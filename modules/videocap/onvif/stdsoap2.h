@@ -679,7 +679,7 @@ extern intmax_t __strtoull(const char*, char**, int);
 #  define SOAP_FREELOCALE(soap) (void)((soap)->c_locale && (_free_locale((soap)->c_locale), ((soap)->c_locale = NULL)))
 # else
 #  if !defined(CYGWIN)
-#   include <xlocale.h>
+#   include <locale.h>
 #  else
 #   undef HAVE_STRTOF_L
 #   undef HAVE_STRTOD_L
