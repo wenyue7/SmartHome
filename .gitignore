@@ -1,0 +1,6 @@
+# ignores following folders
+build/
+cscope.out
+cscope.in.out
+cscope.po.out
+tags
